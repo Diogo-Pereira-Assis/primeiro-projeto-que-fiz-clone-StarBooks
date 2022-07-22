@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box ;
+	font-family: verdama, geneva, tharoma, sans-serif;
+
+}
+html,body{
+height: 100%;
+overflow: hidden;
+}
+
+.center{
+	width: 80%;
+	max-width: 1400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 0 2%;
+	
+	
+}
+
+
+.logo img{
+	margin: 0 20px;
+	padding: 18px 0;
+	max-width:200px;
+	
+}
+.menu{
+	margin-top: 10px;
+	margin-left: 500px;
+
+	padding-top: 30px;
+}
+
+.menu a{
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 15px ;
+	color: #6e6d6d;
+	font-size: 22px;
+}
+
+
+section .about{
+position: relative;
+}
+
+
+.copo{
+	position:absolute;
+	bottom: -300px;
+	right: -300px;
+	width: 900px;
+	padding-top:900px ;
+	background-color: #62946a;
+	border-radius: 50%;
+	
+}
+.img-copo img{
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 450px;
+	height: 530px;
+}
+
+.texto{
+	margin-top: 100px;
+}
+
+.texto h1{
+	font-size:50px ;
+}
+.texto p{
+	padding-top: 20px;
+	font-size: 16px;
+	max-width:800px ;
+}
+
+button{
+	padding: 10px 15px;
+	font-size: 16px;
+	background-color: #62946a;
+	color: white;
+	border-radius: 8px;
+	margin: 20px 0;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #1b421e;
+}
+
+
+
+
